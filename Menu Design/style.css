@@ -1,0 +1,69 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Bodoni Moda', serif;
+
+
+}
+
+body{
+    background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: turquoise;
+}
+
+.kapsa {
+     display:flex;
+     flex-direction: column;
+     height: 100vh;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+
+}
+h1 {
+     margin-bottom: 20px;
+     font-size : 48px;
+
+
+
+}
+
+button {
+     width:50%;
+     padding: 20px;
+     text-align: left;
+     display: flex;
+     justify-content: space-between;
+     border-radius: 5px;
+     font-size: 24px;
+     color: turquoise;
+     background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+
+}
+button:hover,button .aktif{ 
+    cursor: pointer;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.kutu {
+     width: calc(50% - 40px);
+     padding: 0px 20px;
+     max-height: 0px;
+     overflow: hidden;
+     transition: all 0.5s;
+
+}
+
+.kutu p{
+    padding: 20px;
+}
